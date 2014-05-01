@@ -5,7 +5,7 @@ if ::Rails.version < "3.1" || !::Rails.application.config.assets.enabled
   module GoogleCodePrettify
     module Generators
       class InstallGenerator < ::Rails::Generators::Base
-        LANGUAGES = [:apollo, :cli, :css, :go, :hs, :lisp, :lua, :ml, :n, :proto, :scala, :sql, :tex, :vb, :vhdl, :wiki, :xq, :yaml]
+      LANGUAGES = [:apollo, :basic, :cli, :css, :dart, :erlang, :go, :hs, :lisp, :llvm, :lua, :matlab, :ml, :mumps, :n, :pascal, :proto, :r, :rd, :scala, :sql, :tcl, :tex, :vb, :vhdl, :wiki, :xq, :yaml]
 
         desc "This generator installs Google Code Prettify #{GoogleCodePrettify::Rails::VERSION}"
 
