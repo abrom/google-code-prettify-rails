@@ -2,7 +2,7 @@
 
 This gem provides:
 
-* google-code-prettify revision 187
+* google-code-prettify revision 305
 
 ## Rails 3.1
 
